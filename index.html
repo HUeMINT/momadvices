@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mom2Mom</title>
+    <!-- Firebase Library --> <script src="https://cdn.firebase.com/js/client/2.4.0/firebase.js"></script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div>
+        <video src="assets/heroVideo.mp4" autoplay loop poster="assets/heroPhoto.tiff">Sorry, your browser doesn't support embedded videos.</video>
+        <h1>Mom2Mom</h1>
+        <h2>#Tagline</h2>
+    </div>
+    <div>
+        <h2>#Mission</h2>
+        <div>
+            <h3>#Info 1</h3>
+            <ul>
+                <li>#What will you get as a user?</li>
+                <li>#How will it be helpful?</li>
+                <li>#What can you expect?</li>
+            </ul>
+        </div>
+        <div>
+            <h3>#Info 2</h3>
+            <ul>
+                <li>#Privacy concerns</li>
+                <li>#Who we are</li>
+                <li>#What kinds of tips you will receive</li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <h2>#Sign Up</h2>
+        <form action="" id="userInfoForm">
+            <div>
+                <label for="">Phone Number</label>
+                <input type="tel" id="phoneNumber">
+            </div>
+            <div>
+                <label for="">Due Date/Birth Date</label>
+                <input type="week" id="date">
+            </div>
+            <input type="submit">
+        </form>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <img src="assets/pregnant.jpeg" alt="">
+            </div>
+            <div class="col-md-3">
+                <img src="assets/baby.jpeg" alt="">
+            </div>
+            <div class="col-md-3">
+                <img src="assets/preschool.jpeg" alt="">
+            </div>
+            <div class="col-md-3">
+                <img src="assets/gradeschool.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+    <div>
+        <h2>#Contact Us</h2>
+        <form action="" id="commentForm">
+            <input type="textarea">
+            <input type="submit">
+        </form>
+    </div>
+    <footer>
+        <span>#Footer Content</span>
+        <span>#Privacy Policy</span>
+        <span>#Social Media</span>
+    </footer>
+    <!-- jQuery Library -->
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="scripts/custom.js"></script>
+    <script src="scripts/commentSubmit.js"></script>
+    <script src="scripts/userInfoSubmit.js"></script>
+</body>
+</html>
